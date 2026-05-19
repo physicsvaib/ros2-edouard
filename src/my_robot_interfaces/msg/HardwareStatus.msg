@@ -1,0 +1,3 @@
+float64 temprature
+bool are_machines_running
+string debug_message

@@ -1,0 +1,28 @@
+# ROS2 / colcon
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# Linux
+*.swp
+.DS_Store
+
+# ROS generated
+*.egg-info/
+
+# Colcon
+.colcon/
+
+# Environment
+.env
+venv/
