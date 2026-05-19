@@ -31,6 +31,9 @@ setup(
             "number_counter = my_py_first.number_counter:main", 
             "adder_service = my_py_first.add_service:main", 
             "adder_client = my_py_first.add_client:main", 
+            "hardware_pub = my_py_first.hardware_status_pub:main",
+            "hardware_sub = my_py_first.hardware_status_sub:main",
+
         ],
     },
 )
