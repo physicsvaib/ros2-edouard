@@ -33,6 +33,11 @@ setup(
             "adder_client = my_py_first.add_client:main", 
             "hardware_pub = my_py_first.hardware_status_pub:main",
             "hardware_sub = my_py_first.hardware_status_sub:main",
+            "area_service = my_py_first.rectangle_area_service:main",
+            "area_client = my_py_first.rectangle_area_client:main",
+            "battery_status_client = my_py_first.battery:main",
+            "battery_status_service = my_py_first.light_set:main",
+            "battery_status_service_sub = my_py_first.light_set_sub:main",
 
         ],
     },

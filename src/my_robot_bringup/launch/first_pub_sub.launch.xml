@@ -1,0 +1,10 @@
+<launch>
+    <node pkg="my_py_first" exec="py_pub" name="My_Py_Node_Pub"> 
+        <remap from="/radio" to="/radio_rj" />
+        <!-- <param name="RadioName" value="Jockey" /> -->
+        <param from="$(find-pkg-share my_robot_bringup)/config/number_app.yaml"/>
+    </node>
+    <node pkg="my_py_first" exec="py_sub" name="my_py_sub_first"> 
+        <remap from="/radio" to="/radio_rj" />
+    </node>
+</launch>

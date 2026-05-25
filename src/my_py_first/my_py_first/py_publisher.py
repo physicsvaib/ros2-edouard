@@ -11,10 +11,12 @@ class PubNode(Node):
         self.get_logger().info("Publisher Started Py")
         self.__pub = self.create_publisher(String, "radio", 10)
         self.__pub_timer = self.create_timer(2, self.publisher)
+        self.declare_parameter("RadioName", "Awesome Studio")
+
 
     def publisher(self):
         msg = String()
-        msg.data = "Hey Yo"
+        msg.data = f"Hey Yo from {self.get_parameter("RadioName").value}"
         self.__pub.publish(msg)
     
 

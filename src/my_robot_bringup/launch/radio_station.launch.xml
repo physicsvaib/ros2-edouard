@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="my_py_first" exec="py_pub" name="Awesome_1" />
+    <node pkg="my_py_first" exec="py_pub" name="Awesome_2" />
+    <node pkg="my_py_first" exec="py_pub" name="Awesome_3" />
+    <node pkg="my_py_first" exec="py_pub" name="Awesome_4" />
+    <node pkg="my_py_first" exec="py_pub" name="Awesome_5" />
+    <node pkg="my_py_first" exec="py_sub" />
+</launch>
