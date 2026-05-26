@@ -38,6 +38,7 @@ setup(
             "battery_status_client = my_py_first.battery:main",
             "battery_status_service = my_py_first.light_set:main",
             "battery_status_service_sub = my_py_first.light_set_sub:main",
+            "spawn_turtle = my_py_first.spawn_turtle:main"
 
         ],
     },
